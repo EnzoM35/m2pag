@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleads.css">
+    <link rel="icon" href="/img/favicon/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>M2 | Quincho Los Molles</title>
+</head>
+<body>
+  <div class="contenedor">
+    <header>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <img class="logo" src="/img/logo/logopsombra.png" alt="" width="380" height="80">
+
+        <ul>
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="/proyectos.html">Proyectos 3D</a></li>
+          <li><a href="/construcciones.html">Construcciones</a></li>
+          <li><a href="/nosotros.html">Nosotros</a></li>
+          <li><a href="/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header> 
+
+    <div class="contenido">
+      <main>
+  
+        <section>
+          <div class="slider">
+            <div class="slides">
+      
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              
+  
+              <div class="slide first">
+                <img src="/img/ObrasTE/Quincho los Molles/1b.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="/img/ObrasTE/Quincho los Molles/1.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="/img/ObrasTE/Quincho los Molles/3.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="/img/ObrasTE/Quincho los Molles/4.jpg" alt="">
+              </div>
+            
+  
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+        
+            </div>
+        
+  
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+        
+          </div>
+  
+      </section>
+  
+      <section>
+        <h3 class="titulo" style="margin-right: 90px;">Quincho en Los Molles</h3>
+       
+      </section>
+  
+      <section >
+        <br></br>
+        <h4 class="descri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt id nemo modi doloremque
+           voluptatem quod culpa laudantium ut, repudiandae omnis labore ipsum, quas ex itaque dolorem doloribus
+            tempore quos quisquam.</h4>
+       
+        <br></br>
+       
+        <table>
+          <tr>
+            <td>Metros cuadrados: </td> <td>80m²</td>
+          </tr>
+          <tr>
+            <td>Ambientes</td> <td>3</td>
+          </tr>
+          <tr>
+            <td>Habitaciones</td> <td>2</td>
+          </tr>
+          <tr>
+            <td>Baño/s</td> <td>1</td>
+          </tr>
+        </table>
+      </section>
+    
+  
+      </main>
+    </div>
+     
+    <footer>
+      <h4>M2 DESIGN ARQ.</h4>
+      <h4 class="linkap"><a href="#">Diseñada por @EnzoM35</a></h4>
+    </footer>
+
+  </div>
+  
+  
+      
+      <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        }, 5000);
+      </script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
